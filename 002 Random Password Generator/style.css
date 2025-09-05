@@ -1,0 +1,45 @@
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+}
+body {
+  font-family: 'Open Sans', sans-serif !important;
+  background: linear-gradient(to bottom right, #E2E2E2, #C9D6FF) !important;
+  color: #242E4C;
+  min-height: 100vh;
+  overflow: hidden;
+}
+main {
+  margin-top: 7rem;
+  max-width: 650px;
+  width: 95%;
+  background: linear-gradient(to right, #a1ffce, #faffd1);
+}
+main h1 {
+  font-size: 2.25rem;
+}
+main .password-box input {
+  outline: none;
+  cursor: pointer;
+  font-size: 1.25rem;
+  color: inherit;
+  border: 1.5px solid #000;
+}
+main .password-box .refresh-btn {
+  position: absolute;
+  right: 10px;
+  top: 50%;
+  transform: translateY(-50%);
+  border: none;
+  background: transparent;
+  padding: 0;
+  color: #242E4C;
+  cursor: pointer;
+}
+main .options div input {
+  accent-color: #1E1E1E;
+  width: 20px;
+  height: 20px;
+  cursor: pointer;
+}
