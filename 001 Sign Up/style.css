@@ -1,0 +1,76 @@
+@font-face {
+  font-family: 'Lato';
+  font-style: normal;
+  font-weight: 400;
+  font-display: swap;
+  src: url(https://fonts.gstatic.com/s/lato/v24/S6uyw4BMUTPHvxk.ttf) format('truetype');
+}
+@font-face {
+  font-family: 'Lato';
+  font-style: normal;
+  font-weight: 700;
+  font-display: swap;
+  src: url(https://fonts.gstatic.com/s/lato/v24/S6u9w4BMUTPHh6UVew8.ttf) format('truetype');
+}
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+}
+body {
+  font-family: 'Lato', sans-serif !important;
+  background-color: #F4F6F9 !important;
+  color: #242E4C !important;
+}
+main {
+  margin-top: 5rem;
+  max-width: 719px;
+  width: 100%;
+  border: 2px solid #DCE2E7;
+}
+main section h1 {
+  font-size: 2.25rem;
+  font-weight: 700;
+}
+main section .header {
+  font-size: 1.125rem;
+  font-weight: 700;
+}
+main section .header a,
+main section .header a:visited {
+  color: #F73E7E;
+}
+main section .email input {
+  outline: none;
+  font-size: 1.25rem;
+  cursor: pointer;
+  border: 2px solid #DCE2E7;
+}
+main section .email input::placeholder {
+  color: #9EA3B0;
+}
+main section .email .error {
+  font-style: italic;
+  font-size: 0.9375rem;
+}
+main section button {
+  background-color: #F73E7E;
+  font-size: 1.375rem;
+  font-weight: 700;
+}
+main section a,
+main section a:visited {
+  color: inherit;
+  font-weight: 700;
+}
+main section .new {
+  font-weight: 700;
+  font-size: 1.125rem;
+}
+main hr {
+  border: 1.5px solid #8197a9;
+}
+main ul li a,
+main ul li a:visited {
+  color: #F73E7E !important;
+}
