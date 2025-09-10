@@ -1,0 +1,43 @@
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+}
+body {
+  background-color: #E8EBF2 !important;
+  color: #141D4A !important;
+  font-family: 'Mulish', sans-serif !important;
+}
+main {
+  margin-top: 8rem;
+  max-width: 749px;
+  width: 95%;
+}
+main h3 {
+  font-size: 1.625rem;
+  font-weight: 700;
+}
+main .label div input {
+  accent-color: #4681FF;
+  width: 20px;
+  height: 20px;
+}
+main .label div label {
+  font-size: 1.125rem;
+  font-weight: 700;
+}
+main .label .info {
+  max-width: 502px;
+  width: 100%;
+}
+main .label button {
+  background-color: #4681FF;
+  font-weight: 700;
+  box-shadow: 0 4px 20px #4681FF;
+}
+main .label .read {
+  max-width: 579px;
+  width: 100%;
+  font-size: 0.875rem;
+  background-color: #F2F5FB;
+}
