@@ -1,0 +1,33 @@
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+}
+body {
+  font-family: 'Mulish', sans-serif !important;
+  background-color: #262626 !important;
+}
+main {
+  margin-top: 8rem;
+}
+main h1 {
+  font-family: 'Merriweather', serif;
+}
+main section div input {
+  background-color: #171717;
+  outline: none;
+  cursor: pointer;
+  font-size: 1.2rem;
+  color: #fff;
+}
+main section div .generate {
+  background-color: #403F44;
+  font-size: 1.2rem;
+}
+main section div #message {
+  font-size: 1.185rem;
+}
+main section .copy {
+  background-color: #4A4DD9;
+  font-size: 1.2rem;
+}
