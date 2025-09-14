@@ -1,0 +1,51 @@
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+}
+body {
+  font-family: 'IBM Plex Sans', sans-serif !important;
+  background-color: #606265 !important;
+  color: #262D2C !important;
+}
+main {
+  margin-top: 6rem;
+  max-width: 697px;
+  width: 95%;
+  background-color: #EBECED;
+}
+main .close i {
+  color: #202842;
+  cursor: pointer;
+  transition: 0.2s ease;
+}
+main .close i:hover {
+  color: #dc3545;
+}
+main .info h3 {
+  font-size: 1.625rem;
+  font-weight: 700;
+}
+main .info p {
+  max-width: 381px;
+  width: 100%;
+}
+main .info div {
+  margin-bottom: 3rem;
+}
+main .info div .fb {
+  background-color: #405896;
+}
+main .info div .twit {
+  background-color: #1DA1F2;
+}
+main .info div .edit {
+  background-color: #000000;
+}
+main .info .share {
+  font-weight: 700;
+  font-size: 1.25rem;
+}
+main .info .share span {
+  font-weight: 400;
+}
