@@ -1,0 +1,50 @@
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+}
+body {
+  font-family: "Mulish", sans-serif !important;
+  background-color: #F7F8FC !important;
+  color: #10182F !important;
+}
+main {
+  margin-top: 6rem;
+}
+main .card-info {
+  max-width: 323px;
+  width: 95%;
+}
+main .card-info img {
+  height: 207px;
+}
+main .card-info div .title {
+  font-size: 0.75rem;
+  max-width: 102px;
+  width: 100%;
+}
+main .card-info div .title.one {
+  background-color: #47BCD4;
+}
+main .card-info div .title.two {
+  background-color: #5E76BF;
+}
+main .card-info div .title.three {
+  background-color: #CD5B9F;
+}
+main .card-info div h5 {
+  font-weight: 700;
+  font-size: 1.125rem;
+}
+main .card-info div img {
+  width: 45px;
+  height: 45px;
+}
+main .card-info div .users h6 {
+  font-weight: 700;
+}
+main .card-info div .users .time {
+  margin-top: -0.5rem;
+  color: #545D7A;
+  font-size: 0.875rem;
+}
