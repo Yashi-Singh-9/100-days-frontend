@@ -1,0 +1,68 @@
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+}
+body {
+  background-color: #EEEFF9 !important;
+  color: #090B2E !important;
+  font-family: 'IBM Plex Sans', sans-serif !important;
+  font-weight: 500 !important;
+}
+main {
+  margin-top: 5rem;
+  max-width: 682px;
+  width: 95%;
+}
+main .plan h4 {
+  font-family: 'Merriweather', serif;
+  font-weight: 900;
+  font-size: 1.625rem;
+}
+main .plan a,
+main .plan a:visited {
+  color: inherit;
+  font-family: 'IBM Plex Sans', sans-serif;
+  font-weight: 500;
+}
+main .plan-info .top {
+  border: 2px solid #EEEFF9;
+  background-color: #FBFBFF;
+  max-width: 389px;
+  width: 100%;
+}
+main .plan-info .top p {
+  font-size: 1.125rem;
+}
+main .plan-info .top p a,
+main .plan-info .top p a:visited {
+  font-weight: 700;
+  color: inherit;
+}
+main .plan-info .plans {
+  max-width: 528px;
+  width: 100%;
+  background: linear-gradient(to bottom right, #9B7FF8, #6570DA);
+}
+main .plan-info .plans .subcription div {
+  font-family: 'Merriweather', serif;
+  font-weight: 900;
+  font-size: 1.25rem;
+}
+main .plan-info section label {
+  font-family: 'Merriweather', serif;
+  font-weight: 900;
+  font-size: 1.125rem;
+}
+main .plan-info section div div input {
+  accent-color: #090B2E;
+  width: 34px;
+  height: 34px;
+}
+main .plan-info button {
+  max-width: 528px;
+  width: 100%;
+  background-color: #090B2E;
+  font-size: 1.25rem;
+  font-weight: 500;
+}
