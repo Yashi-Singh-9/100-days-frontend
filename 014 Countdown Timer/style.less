@@ -1,0 +1,54 @@
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+body {
+    font-family: 'Mulish', sans-serif !important;
+    background: 
+        linear-gradient(to bottom right, rgba(126, 179, 188, 0.82), rgba(11, 83, 53, 1)),
+        url(images/background-image.png) no-repeat;
+    background-size: cover;
+    background-blend-mode: multiply;
+    min-height: 100vh;
+}
+
+main {
+    margin-top: 8rem;
+
+    h1 {
+        font-family: 'Droid Serif', serif;
+        font-weight: 400;
+        font-size: 4.5625rem;
+    }
+
+    span {
+        font-size: 1.15rem;
+    }
+
+    .countdown {
+        gap: 8rem;
+
+        .time-box {
+            #days,
+            #hours,
+            #minutes,
+            #seconds {
+                font-family: 'Bitter', serif;
+                font-weight: 700;
+                background-color: rgba(255, 255, 255, 0.4);
+                font-size: 3rem;
+            }
+
+            span {
+                font-size: 1.3125rem;
+            }
+        }
+    }
+
+    p {
+        max-width: 900px;
+        width: 100%;
+    }
+}
