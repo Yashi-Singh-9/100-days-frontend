@@ -1,0 +1,49 @@
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+}
+body {
+  font-family: 'Droid Serif', serif !important;
+  font-weight: 400 !important;
+  background: url(images/background.png) no-repeat;
+  background-size: cover;
+}
+main {
+  margin-top: 5rem;
+  max-width: 600px;
+  width: 95%;
+}
+main h1 {
+  font-family: 'Bitter', serif;
+  font-weight: 700;
+}
+main .word-guess {
+  border: 4px solid red;
+}
+main .word-guess h2 {
+  font-size: 1.356rem;
+}
+main .word-guess div input {
+  cursor: pointer;
+  outline: none;
+  font-size: 1.356rem;
+}
+main .word-guess div button {
+  border: 2px solid yellowgreen;
+  font-size: 1.5rem;
+}
+main .word-guess #resetButton,
+main .word-guess #hintButton {
+  background-color: #3C8889;
+}
+main .word-guess .success,
+main .word-guess .failure {
+  font-size: 1.356rem !important;
+}
+main .word-guess .success {
+  color: #fafdfd;
+}
+main .word-guess .failure {
+  color: blanchedalmond;
+}

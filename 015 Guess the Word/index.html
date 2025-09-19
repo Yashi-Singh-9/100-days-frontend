@@ -1,0 +1,38 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+
+    <link rel="stylesheet" href="style.css"> <!-- CSS -->
+    <link rel="shortcut icon" href="../logo.png" type="image/x-icon"> <!-- Logo -->
+    <link href="https://fonts.googleapis.com/css2?family=Bitter:wght@700&family=Droid+Serif:wght@400&display=swap" rel="stylesheet"> <!-- Google Fonts -->
+    <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.3.3/dist/css/bootstrap.min.css" rel="stylesheet" integrity="sha384-QWTKZyjpPEjISv5WaRU9OFeRpok6YctnYmDr5pNlyT2bRjXh0JMhjY6hW+ALEwIH" crossorigin="anonymous"> <!-- Bootstrap -->
+
+    <title>Guess the Word</title>
+</head>
+<body>
+    <main class="mx-auto mb-5">
+        <h1 class="p-3 rounded-4 bg-warning text-center">Guess the Word!</h1>
+
+        <section class="word-guess p-3 rounded-4 text-center text-white">
+            <h2 id="word" class="mb-5 mt-5">_ _ _ _</h2>
+  
+            <div>
+              <input type="text" id="letterInput" maxlength="1" class="w-75 d-block mx-auto mb-3 rounded-3 border-0 p-2" autocomplete="off" />
+              <button onclick="guessLetter()" class="text-white rounded-3 w-50 p-2 bg-transparent fw-semibold">Guess</button>
+            </div>
+          
+            <div id="guesses" class=" fs-4 mt-5 mb-5">Wrong guesses: </div>
+            <div id="message"></div>
+          
+            <button id="resetButton" class="d-block mx-auto mt-4 mb-3 p-3 rounded-3 border-0 fs-5 fw-semibold w-75 text-white" onclick="resetGame()">Next Word / Try Again</button>
+            <button id="hintButton" class="p-3 rounded-3 border-0 fs-5 fw-semibold w-75 mb-5 text-white" onclick="giveHint()">Get a Hint</button>
+            
+            <div id="hint"></div>          
+        </section>
+    </main>
+
+    <script src="script.js"></script>
+</body>
+</html>
