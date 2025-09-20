@@ -1,0 +1,47 @@
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+}
+body {
+  font-family: 'Open Sans', sans-serif !important;
+  background-color: #F7F9FD !important;
+  color: #242E4C !important;
+}
+main {
+  margin-top: 6rem;
+  max-width: 520px;
+  width: 95%;
+  box-shadow: 0 0 20px 8px #DCDFF1;
+}
+main .close i {
+  cursor: pointer;
+  transition: 0.2s ease;
+}
+main .close i:hover {
+  color: #dc3545;
+}
+main .info .title {
+  max-width: 345px;
+  width: 100%;
+  font-weight: 700;
+}
+main .info .undone {
+  font-size: 0.875rem;
+}
+main .info .box {
+  background-color: #F7F9FD;
+  border: 1px solid #DCDFF1;
+}
+main .info .box div input {
+  width: 20px;
+  height: 20px;
+  accent-color: #cedaf3;
+}
+main .info .box div label {
+  font-size: 0.875rem;
+}
+main .info .btns .cancel {
+  color: #5D698D;
+  border: 2px solid #DCDFF1;
+}
