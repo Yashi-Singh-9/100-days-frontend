@@ -1,0 +1,65 @@
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+}
+body {
+  font-family: 'Open Sans', sans-serif !important;
+  background: url(images/background.png) no-repeat;
+  background-size: cover;
+}
+main {
+  margin-top: 8rem;
+  max-width: 800px;
+  width: 95%;
+}
+main h1 {
+  color: #0c4a4e;
+}
+main p {
+  color: #4d0606;
+  max-width: 550px;
+  width: 100%;
+  font-size: 1.2rem;
+}
+main .calculator input {
+  outline: none;
+  cursor: pointer;
+  border: 2px solid #fef4ca;
+  color: #4F0502;
+  transition: 0.3s ease;
+}
+main .calculator input::placeholder {
+  color: #c78a27;
+}
+main .calculator .result {
+  margin-top: 25px;
+  font-weight: 600;
+  min-height: 40px;
+  transition: 0.3s ease;
+}
+main .calculator .slider {
+  height: 10px;
+  background: #ddd;
+  border-radius: 5px;
+  overflow: hidden;
+  max-width: 550px;
+}
+main .calculator .slider .slider-fill {
+  height: 100%;
+  width: 0%;
+  background: #4CAF50;
+  transition: width 0.5s ease, background 0.5s ease;
+}
+main .calculator .slider .underweight {
+  color: #FF9800;
+}
+main .calculator .slider .normal {
+  color: #4CAF50;
+}
+main .calculator .slider .overweight {
+  color: #FF5722;
+}
+main .calculator .slider .obese {
+  color: #F44336;
+}
