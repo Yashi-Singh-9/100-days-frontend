@@ -1,0 +1,80 @@
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+}
+body {
+  font-family: 'Droid Serif', serif !important;
+  background: url(images/background.png) no-repeat;
+  background-size: cover;
+  color: #2e4486 !important;
+}
+main {
+  margin-top: 5rem;
+  max-width: 800px;
+  width: 95%;
+}
+main h1 {
+  background-color: #5ec4c5;
+  font-family: 'Bitter', serif;
+  font-weight: 700;
+  color: #173f3f;
+}
+main .container #category-select {
+  outline: none;
+  color: inherit;
+}
+main .container #category-select option:hover {
+  background-color: #308BA1;
+  color: #fff;
+}
+main .container #fact-container #fact {
+  font-weight: 600;
+}
+main .container #generate-btn {
+  font-weight: 600;
+  background-color: #17797A;
+  font-size: 1.2rem;
+  transition: 0.2s ease;
+}
+main .container #generate-btn:hover {
+  background-color: #1b8e8f;
+}
+main .container .btns button {
+  color: #f0ac00;
+  border: 2px solid;
+  transition: 0.2s ease;
+}
+main .container .btns button#thumbs-up-btn {
+  border-color: #34C759;
+  color: #34C759;
+}
+main .container .btns button#thumbs-up-btn:hover {
+  background-color: #34C759 !important;
+  color: #fff;
+}
+main .container .btns button#thumbs-down-btn {
+  border-color: #FF3B30;
+  color: #FF3B30;
+}
+main .container .btns button#thumbs-down-btn:hover {
+  background-color: #FF3B30 !important;
+  color: #fff;
+}
+main .container #liked-facts-container h3 {
+  font-size: 1.3rem;
+  font-weight: 500;
+}
+main .container section input {
+  color: inherit;
+  outline: none;
+  cursor: pointer;
+  border: 1.5px solid #3b57ac;
+  font-size: 1.15rem;
+}
+main .container section button {
+  background-color: #1a622c;
+  font-size: 1.2rem;
+  font-weight: 700;
+  transition: 0.2s ease;
+}
