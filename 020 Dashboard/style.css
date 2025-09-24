@@ -1,0 +1,43 @@
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+}
+body {
+  font-family: 'Mulish', sans-serif !important;
+  background-color: #F8F8F9 !important;
+  color: #202842 !important;
+}
+main {
+  margin-top: 8rem;
+  max-width: 922px;
+  width: 95%;
+  box-shadow: 0 15px 8px #eaeaed;
+}
+main h3 {
+  font-size: 1.625rem;
+}
+main .cards .cards-info {
+  max-width: 235px;
+  width: 100%;
+}
+@media (max-width: 621px) {
+  main .cards .cards-info {
+    max-width: unset;
+  }
+}
+main .cards .cards-info.one {
+  background: linear-gradient(to bottom right, #e1e7ff, #F3F4FD);
+}
+main .cards .cards-info.two {
+  background: linear-gradient(to bottom right, #e1edff, #F4FDF3);
+}
+main .cards .cards-info.three {
+  background: linear-gradient(to bottom right, #ffede1, #FDF7F3);
+}
+main .cards .cards-info .title {
+  font-size: 1.125rem;
+}
+main .cards .cards-info .hour {
+  font-size: 0.875rem;
+}
