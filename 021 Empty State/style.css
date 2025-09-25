@@ -1,0 +1,26 @@
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+}
+body {
+  font-family: 'Mulish', sans-serif !important;
+  background-color: #EEEEF5 !important;
+}
+main {
+  margin-top: 8rem;
+  max-width: 669px;
+  width: 95%;
+  box-shadow: 0 12px 8px #cecee2;
+}
+main img {
+  width: 130px;
+  height: 127px;
+}
+main h4 {
+  max-width: 254px;
+  width: 100%;
+}
+main .try {
+  color: #7D7A9E;
+}
