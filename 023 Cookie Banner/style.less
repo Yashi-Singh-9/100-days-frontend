@@ -1,0 +1,63 @@
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+body {
+    font-family: 'Mulish', sans-serif !important;
+    background: linear-gradient(to bottom right, lighten(#771DE2, 30%), lighten(#FF1B5C, 30%));
+    color: #242E4C !important;
+    min-height: 80vh;
+}
+
+main {
+    margin-top: 10rem;
+    max-width: 698px;
+    width: 95%;
+
+    .close {
+        i {
+            cursor: pointer;
+            color: #7D7A9E;
+            background-color: #F7F7FC;
+            transition: 0.2s ease;
+
+            &:hover {
+                color: red;
+            }
+        }
+    }
+
+    .infos {
+        img {
+            width: 90px;
+            height: 90px;
+        }
+
+        h5 {
+            font-size: 1.25rem;
+        }
+
+        p {
+            max-width: 553px;
+            width: 100%;
+        }
+
+        .policy,
+        .policy:visited {
+            color: inherit;
+        }
+
+        .setting-info {
+            .got {
+                background: linear-gradient(to right, #F073C8, #FF6A95);
+            }
+
+            .edit,
+            .edit:visited {
+                color: #7D7A9E;
+            }
+        }
+    }
+}
