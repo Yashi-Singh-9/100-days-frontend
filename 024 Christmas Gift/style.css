@@ -1,0 +1,42 @@
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+}
+body {
+  font-family: 'Inconsolata', monospace !important;
+  background-color: #EFF0F3 !important;
+  color: #242E4C !important;
+}
+main {
+  margin-top: 7rem;
+  max-width: 549px;
+  width: 95%;
+}
+main .close i {
+  color: #455891;
+  cursor: pointer;
+  transition: 0.2s ease;
+}
+main .close i:hover {
+  color: red;
+}
+main .infos img {
+  width: 37px;
+  height: 63px;
+}
+main .infos h3 {
+  font-size: 1.875rem;
+}
+main .infos p {
+  max-width: 315px;
+  width: 100%;
+}
+main .infos span {
+  color: #CF8204;
+  font-weight: 500;
+}
+main .infos button {
+  font-family: 'Montserrat', sans-serif;
+  background-color: #242E4C;
+}
