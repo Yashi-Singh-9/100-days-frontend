@@ -1,0 +1,88 @@
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+body {
+    background-color: #ECF1F7 !important;
+    color: #242E4C !important;
+    font-family: 'Montserrat', sans-serif !important;
+}
+
+main {
+    max-width: 966px;
+    width: 95%;
+    margin-top: 5rem;
+
+    img {
+        width: 100px;
+        height: 100px;
+    }
+
+    h3 {
+        font-weight: 500;
+    }
+
+    .cards {
+        .cards-info {
+            .infos {
+                h5 {
+                    font-weight: 600;
+                }
+    
+                p {
+                    max-width: 508px;
+                    width: 100%;
+
+                    @media (max-width: 875px) {
+                        max-width: unset;
+                    }
+                }
+
+            }
+
+            .options {
+                background-color: #F4F9FF;
+                max-width: 228px;
+                width: 100%;
+
+                @media (max-width: 875px) {
+                    max-width: unset;
+                }
+
+                div {
+                    input {
+                        width: 24px;
+                        height: 24px;
+                        accent-color: #4D32FF;
+                    }
+
+                    label {
+                        font-size: 1.25rem;
+                        font-weight: 500;
+
+                        span {
+                            font-size: 0.875rem;
+                            font-weight: 600;
+                        }
+                    }
+                }
+            }
+        }
+    }
+
+    .description {
+        font-family: 'Open Sans', sans-serif;
+        max-width: 643px;
+        width: 100%;
+        color: #7783A5;
+        font-size: 0.875rem;
+    }
+
+    button {
+        background-color: #F0626C;
+        font-family: 'Open Sans', sans-serif;
+        font-weight: 600;
+    }
+}
