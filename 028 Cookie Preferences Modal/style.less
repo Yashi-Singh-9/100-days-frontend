@@ -1,0 +1,58 @@
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+body {
+    font-family: 'Mulish', sans-serif !important;
+    background: linear-gradient(to bottom right, #FBFCFF, #E3E9FC) no-repeat;
+    color: #273240 !important;
+    min-height: 90vh;
+}
+
+main {
+    margin-top: 5rem;
+    max-width: 616px;
+    width: 95%;
+
+    .close {
+        i {
+            color: lighten(#273240, 10%);
+            cursor: pointer;
+            transition: 0.2s ease;
+
+            &:hover {
+                color: #dc3545;
+            }
+        }
+    }
+
+    .info {
+        h4 {
+            font-weight: 800;
+            font-size: 1.375rem;
+        }
+
+        p {
+            font-size: 0.9375rem;
+        }
+
+        .btns {
+            button {
+                background-color: #273240;
+            }
+        }
+
+        .preferences,
+        .preferences:visited {
+            color: inherit;
+            border: 2px solid #D7DFF8;
+        }
+
+        .learn,
+        .learn:visited {
+            color: #243BC5;
+        }
+    }
+}
