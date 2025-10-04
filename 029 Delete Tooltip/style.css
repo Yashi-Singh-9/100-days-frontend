@@ -1,0 +1,42 @@
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+}
+body {
+  font-family: 'Mulish', sans-serif !important;
+  background-color: rgba(21, 38, 97, 0.68) !important;
+  color: #242E4C !important;
+  min-height: 90vh;
+}
+main {
+  margin-top: 5rem;
+  max-width: 749px;
+  width: 95%;
+}
+main .close i {
+  color: #3a4b60;
+  cursor: pointer;
+  transition: 0.2s ease;
+}
+main .close i:hover {
+  color: #dc3545;
+}
+main .infos i {
+  color: #f3bf17;
+}
+main .infos p {
+  max-width: 302px;
+  width: 100%;
+}
+main .infos a,
+main .infos a:visited {
+  color: inherit;
+}
+main .infos .btns .yes {
+  background-color: #3457DC;
+}
+main .infos .btns .cancel {
+  color: #5D698D;
+  border: 2px solid #8E9ABD;
+}

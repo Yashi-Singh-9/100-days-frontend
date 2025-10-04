@@ -1,0 +1,57 @@
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+body {
+    font-family: 'Mulish', sans-serif !important;
+    background-color: rgba(21, 38, 97, 0.68) !important;
+    color: #242E4C !important;
+    min-height: 90vh;
+}
+
+main {
+    margin-top: 5rem;
+    max-width: 749px;
+    width: 95%;
+
+    .close {
+        i {
+            color: lighten(#273240, 10%);
+            cursor: pointer;
+            transition: 0.2s ease;
+
+            &:hover {
+                color: #dc3545;
+            }
+        }
+    }
+
+    .infos {
+        i {
+            color: darken(#F7D360, 15%);
+        }
+
+        p {
+            max-width: 302px;
+            width: 100%;
+        }
+
+        a,
+        a:visited {
+            color: inherit;
+        }
+
+        .btns {
+            .yes {
+                background-color: #3457DC;
+            }
+
+            .cancel {
+                color: #5D698D;
+                border: 2px solid #8E9ABD;
+            }
+        }
+    }
+}
