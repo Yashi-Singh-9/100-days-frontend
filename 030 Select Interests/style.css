@@ -1,0 +1,64 @@
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+}
+body {
+  font-family: 'Mulish', sans-serif !important;
+  background-color: #22242C !important;
+  min-height: 90vh;
+}
+main {
+  margin-top: 5rem;
+  max-width: 750px;
+  width: 95%;
+  background-color: #1B1D25;
+}
+main .close i {
+  color: #5f6476;
+  background-color: #16181F;
+  cursor: pointer;
+  transition: 0.2s ease;
+  width: 50px;
+  height: 50px;
+}
+main .close i:hover {
+  color: #dc3545;
+}
+main .info h4 {
+  color: #9298AD;
+}
+main .info .description {
+  max-width: 391px;
+  width: 100%;
+  color: #636879;
+  font-weight: 600;
+}
+main .info .interest {
+  max-width: 700px;
+  width: 100%;
+}
+main .info .interest .interests {
+  color: #71768C;
+  background-color: #16181F;
+  max-width: 194px;
+  width: 100%;
+  cursor: pointer;
+  transition: 0.1s ease;
+}
+main .info .interest .interests:hover,
+main .info .interest .interests.selected {
+  border: 2px solid #B02342;
+  box-shadow: 0 0 5px 3px #ff6e8b;
+  color: #fff;
+}
+main .info .btns button {
+  font-weight: 600;
+}
+main .info .btns .skip {
+  border: 1.5px solid #0C0D11;
+  color: #71768C;
+}
+main .info .btns .save {
+  background-color: #C74063;
+}

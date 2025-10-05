@@ -1,0 +1,82 @@
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+body {
+    font-family: 'Mulish', sans-serif !important;
+    background-color: #22242C !important;
+    min-height: 90vh;
+}
+
+main {
+    margin-top: 5rem;
+    max-width: 750px;
+    width: 95%;
+    background-color: #1B1D25;
+
+    .close {
+        i {
+            color: lighten(#3D404C, 15%);
+            background-color: #16181F;
+            cursor: pointer;
+            transition: 0.2s ease;
+            width: 50px;
+            height: 50px;
+
+            &:hover {
+                color: #dc3545;
+            }
+        }
+    }
+
+    .info {
+        h4 {
+            color: #9298AD;
+        }
+
+        .description {
+            max-width: 391px;
+            width: 100%;
+            color: #636879;
+            font-weight: 600;
+        }
+
+        .interest {
+            max-width: 700px;
+            width: 100%;
+
+            .interests {
+                color: #71768C;
+                background-color: #16181F;
+                max-width: 194px;
+                width: 100%;
+                cursor: pointer;
+                transition: 0.1s ease;
+
+                &:hover,
+                &.selected {
+                    border: 2px solid #B02342;
+                    box-shadow: 0 0 5px 3px lighten(#FF5477, 5%);
+                    color: #fff;
+                }
+            }
+        }
+
+        .btns {
+            button {
+                font-weight: 600;
+            }
+            
+            .skip {
+                border: 1.5px solid #0C0D11;
+                color: #71768C;
+            }
+    
+            .save {
+                background-color: #C74063;
+            }
+        }
+    }
+}
