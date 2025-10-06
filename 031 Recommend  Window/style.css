@@ -1,0 +1,43 @@
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+}
+body {
+  font-family: 'Montserrat', sans-serif !important;
+  background-color: #11131B !important;
+  min-height: 90vh;
+}
+main {
+  margin-top: 5rem;
+  max-width: 874px;
+  width: 95%;
+  background-color: #1A1D28;
+}
+main .close i {
+  color: rgba(196, 200, 205, 0.3);
+  cursor: pointer;
+  transition: 0.2s ease;
+}
+main .close i:hover {
+  color: #dc3545;
+}
+main .info h2 {
+  font-size: 2.125rem;
+}
+main .info p {
+  max-width: 520px;
+  width: 100%;
+  font-size: 1.60875rem;
+}
+main .info .btns button {
+  background-color: #11131B;
+  font-size: 1.60875rem;
+  font-weight: 500;
+}
+main .info .btns button .fa-twitter {
+  color: #03A9F4;
+}
+main .info .btns button .fa-facebook-f {
+  color: #385C8E;
+}
