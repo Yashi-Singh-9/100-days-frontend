@@ -1,0 +1,45 @@
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+}
+body {
+  font-family: 'Open Sans', sans-serif !important;
+  background: linear-gradient(to bottom left, #FFA272, #FF6990) no-repeat;
+  color: #202842 !important;
+  min-height: 90vh;
+}
+main {
+  margin-top: 6rem;
+  max-width: 800px;
+  width: 95%;
+  box-shadow: 0 16px 20px #cf0036;
+}
+main .close i {
+  color: #CACFDF;
+  cursor: pointer;
+  transition: 0.2s ease;
+}
+main .close i:hover {
+  color: #dc3545;
+}
+main .info img {
+  width: 102px;
+  height: 102px;
+}
+main .info h3 {
+  max-width: 408px;
+  width: 100%;
+  color: #202842;
+}
+main .info p {
+  font-size: 1.125rem;
+  max-width: 563px;
+  width: 100%;
+  color: #3A4153;
+}
+main .info button {
+  font-size: 1.25rem;
+  background-color: #FA5873;
+  box-shadow: 0 8px 8px #fc93a5;
+}
