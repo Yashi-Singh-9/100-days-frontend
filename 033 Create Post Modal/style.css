@@ -1,0 +1,55 @@
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+}
+body {
+  font-family: 'Mulish', sans-serif !important;
+  background-color: #FFAE84 !important;
+  color: #0C0F22 !important;
+}
+main {
+  margin-top: 6rem;
+  max-width: 657px;
+  width: 95%;
+}
+main .header {
+  color: #7088ce;
+}
+main .header .fa-arrow-left,
+main .header .fa-xmark {
+  background-color: #F0F0F3;
+  cursor: pointer;
+  transition: 0.2s ease;
+}
+main .header .fa-xmark:hover {
+  color: red;
+}
+main .header .fa-arrow-left:hover {
+  color: #4d4dff;
+}
+main .infos h3 {
+  font-size: 1.5rem;
+}
+main .infos p {
+  max-width: 381px;
+  width: 100%;
+}
+main .infos input {
+  outline: none;
+  color: inherit;
+  cursor: pointer;
+  border: 1.5px solid #CACAE3;
+}
+main .infos input::placeholder {
+  color: #3c3c72;
+}
+main .infos .btns button {
+  font-size: 1.125rem;
+}
+main .infos .btns button.cancel {
+  color: #4e4e93;
+}
+main .infos .btns button[type="submit"] {
+  background-color: #FF6363;
+}
