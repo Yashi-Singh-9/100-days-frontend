@@ -1,0 +1,56 @@
+@import url("https://fonts.googleapis.com/css2?family=Montserrat:wght@500;600&display=swap");
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+}
+
+body {
+  font-family: "Montserrat", sans-serif !important;
+  font-weight: 500 !important;
+  background-color: #202330 !important;
+  color: #242E4C !important;
+}
+
+main {
+  margin-top: 5rem;
+}
+main .icon {
+  font-size: 1.875rem;
+  color: #FCB407;
+  border: 3px solid #FCB407;
+  width: 105px;
+  height: 105px;
+  cursor: pointer;
+}
+main .cards {
+  max-width: 430px;
+  width: 100%;
+}
+main .cards div .name {
+  font-size: 1.6875rem;
+}
+main .cards div .change,
+main .cards div .change:visited {
+  color: #FCB407;
+  font-size: 1.3125rem;
+}
+main .cards button {
+  font-size: 1.6875rem;
+  background-color: #FCB407;
+  max-width: 340px;
+  width: 100%;
+}
+main .cards ul li a,
+main .cards ul li a:visited {
+  color: inherit;
+  font-size: 1.6875rem;
+}
+main .cards hr {
+  border: 1.5px solid #676c99;
+}
+main .cards a,
+main .cards a:visited {
+  color: inherit;
+  font-size: 1.6875rem;
+}/*# sourceMappingURL=style.css.map */
