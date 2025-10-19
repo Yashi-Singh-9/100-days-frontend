@@ -1,0 +1,104 @@
+@import url("https://fonts.googleapis.com/css2?family=Mulish:wght@400;600;700&display=swap");
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+}
+
+body {
+  font-family: "Mulish", sans-serif !important;
+  color: #242E4C !important;
+}
+
+header {
+  position: relative;
+}
+header i {
+  display: none !important;
+  cursor: pointer;
+}
+header ul li a,
+header ul li a:visited {
+  color: #7D7A9E;
+  transition: 0.1s ease;
+}
+header ul li a:hover,
+header ul li a:visited:hover {
+  color: #242E4C;
+  font-weight: 600;
+}
+
+@media (max-width: 768px) {
+  header ul {
+    display: none;
+    flex-direction: column;
+    gap: 1.5rem;
+    position: absolute;
+    top: 70px;
+    right: 20px;
+    background: white;
+    padding: 1rem;
+    border: 1px solid #ddd;
+    border-radius: 8px;
+    z-index: 99;
+    max-width: 300px;
+    width: 95%;
+    text-align: center;
+  }
+  header i {
+    display: block !important;
+    color: #242E4C;
+  }
+}
+.show-menu {
+  display: flex !important;
+}
+
+main h4 {
+  font-size: 1.625rem;
+  font-weight: 600;
+}
+main p {
+  max-width: 566px;
+  width: 100%;
+}
+main form input,
+main form textarea {
+  max-width: 380px;
+  width: 95%;
+  border: 1px solid #EBEBF2;
+  cursor: pointer;
+  transition: 0.1s ease;
+  color: inherit;
+}
+main form input::-moz-placeholder, main form textarea::-moz-placeholder {
+  color: #455891;
+}
+main form input::placeholder,
+main form textarea::placeholder {
+  color: #455891;
+}
+main form input:focus, main form input:hover,
+main form textarea:focus,
+main form textarea:hover {
+  border: 1.5px solid #F775C1;
+}
+main form button {
+  max-width: 380px;
+  width: 95%;
+  background: linear-gradient(to right, #F073C8, #FF6A95);
+}
+
+footer {
+  border-color: #8e8eb6;
+  margin-top: 5rem;
+}
+footer ul li a,
+footer ul li a:visited {
+  color: #7D7A9E;
+  font-size: 0.9375rem;
+}
+footer span {
+  color: #acaac7;
+  font-size: 0.9375rem;
+}/*# sourceMappingURL=style.css.map */
