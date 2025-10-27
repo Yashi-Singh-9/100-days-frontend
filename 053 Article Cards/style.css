@@ -1,0 +1,52 @@
+@import url("https://fonts.googleapis.com/css2?family=Merriweather:wght@900&family=Mulish:wght@400&display=swap");
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+}
+
+body {
+  font-family: "Mulish", sans-serif !important;
+  background-color: #F3F4F6 !important;
+  color: #1A1B38 !important;
+}
+
+main {
+  margin-top: 7rem;
+  max-width: 832px;
+  width: 95%;
+  box-shadow: 0 15px 8px #d6d9e0;
+}
+main .images img {
+  height: 197px;
+}
+main .images img.one, main .images img.three {
+  width: 197px;
+}
+main .images img.two {
+  width: 318px;
+}
+@media (max-width: 609px) {
+  main .images img.one {
+    border-radius: 1rem;
+  }
+}
+@media (max-width: 833px) {
+  main .images img.three {
+    border-radius: 1rem;
+  }
+}
+main .info h4 {
+  font-family: "Merriweather", serif;
+  font-weight: 900;
+  font-size: 1.625rem;
+}
+main .info p {
+  max-width: 494px;
+  width: 100%;
+  font-size: 1.125rem;
+}
+main .info a,
+main .info a:visited {
+  color: inherit;
+}/*# sourceMappingURL=style.css.map */
