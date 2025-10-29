@@ -1,0 +1,54 @@
+@import url("https://fonts.googleapis.com/css2?family=Mulish:wght@400;600;700&display=swap");
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+}
+
+body {
+  font-family: "Mulish", sans-serif !important;
+  background-color: #F7F9FD !important;
+  color: #202842 !important;
+}
+
+main {
+  margin-top: 7rem;
+}
+main .cards {
+  max-width: 808px;
+  width: 100%;
+  box-shadow: 0 8px 8px #cedaf3;
+}
+main .cards h4 {
+  font-size: 1.25rem;
+}
+main .cards p {
+  max-width: 363px;
+  width: 100%;
+}
+main .cards .reset label {
+  font-weight: 600;
+  font-size: 0.9375rem;
+}
+main .cards .reset input {
+  cursor: pointer;
+  outline: none;
+  border: 1.5px solid #DCDFF1;
+  color: inherit;
+}
+main .cards .reset input::-moz-placeholder {
+  color: #5D698D;
+}
+main .cards .reset input::placeholder {
+  color: #5D698D;
+}
+main .cards .error-message {
+  margin-top: -2.5rem;
+  text-align: center;
+  color: #dc3545;
+  margin-left: 2rem;
+  font-weight: 600;
+}
+main .cards button {
+  background-color: #3457DC;
+}/*# sourceMappingURL=style.css.map */
