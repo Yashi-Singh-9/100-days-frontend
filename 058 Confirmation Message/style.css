@@ -1,0 +1,38 @@
+@import url("https://fonts.googleapis.com/css2?family=Open+Sans:wght@400;600;700&display=swap");
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+}
+
+body {
+  font-family: "Open Sans", sans-serif !important;
+  color: #202842 !important;
+  background-color: #F7F9FD !important;
+}
+
+main {
+  margin-top: 6rem;
+}
+main .cards {
+  max-width: 720px;
+  width: 100%;
+  box-shadow: 0 10px 10px #bacbee;
+}
+main .cards img {
+  width: 332px;
+  height: 208px;
+}
+main .cards p {
+  max-width: 460px;
+  width: 100%;
+  font-size: 1.0625rem;
+}
+main .cards button {
+  max-width: 375px;
+  width: 100%;
+  font-weight: 600;
+  background-color: #4565E5;
+  box-shadow: 0 5px 10px #728aeb;
+  font-size: 0.9375rem;
+}/*# sourceMappingURL=style.css.map */
