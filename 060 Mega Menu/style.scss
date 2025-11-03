@@ -1,0 +1,60 @@
+@import url("https://fonts.googleapis.com/css2?family=Mulish:wght@400;700&display=swap");
+
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+body {
+    font-family: 'Mulish', sans-serif !important;
+    background-color: #F7F8FC !important;
+    color: #10182F !important;
+}
+
+main {
+    margin-top: 7rem;
+    max-width: 1270px;
+    width: 95%;
+    box-shadow: 0 8px 8px darken($color: #F7F8FC, $amount: 10%);
+
+    .menu-info {
+        i {
+            width: 72px;
+            height: 72px;
+
+            &.fa-newspaper {
+                color: #3DC3FF;
+                background-color: #EEF8FF;
+            }
+
+            &.fa-gift {
+                color: #7C62E8;
+                background-color: #F5F2FF;
+            }
+
+            &.fa-qrcode {
+                color: #E44374;
+                background-color: #FFF2F6;
+            }
+
+            &.fa-bullhorn {
+                color: #F5A623;
+                background-color: #FFF8EE;
+            }
+        }
+
+        h5 {
+            font-size: 1.3125rem;
+        }
+
+        ul {
+            li {
+                a,
+                a:visited {
+                    color: inherit;
+                }
+            }
+        }
+    }
+}
