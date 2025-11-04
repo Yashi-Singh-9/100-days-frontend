@@ -1,0 +1,66 @@
+@import url("https://fonts.googleapis.com/css2?family=Merriweather:wght@700&family=Mulish:wght@400&display=swap");
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+}
+
+body {
+  background: linear-gradient(to bottom right, #EC80AE, #A779E8) no-repeat;
+  min-height: 88.45vh;
+  color: #22233A !important;
+  font-family: "Mulish", sans-serif !important;
+}
+
+main {
+  margin-top: 6rem;
+  max-width: 645px;
+  width: 95%;
+}
+main .close i {
+  cursor: pointer;
+  color: #507192;
+  background-color: #EDF0FF;
+  width: 48px;
+  height: 48px;
+  transition: 0.2s ease;
+}
+main .close i:hover {
+  color: #DC3545;
+}
+main .card-info div .fa-scroll {
+  width: 42px;
+  height: 42px;
+  font-size: 2.625rem;
+}
+main .card-info div div h5 {
+  font-size: 1.375rem;
+  font-family: "Merriweather", serif;
+}
+main .card-info div div span {
+  margin-top: -0.5rem;
+}
+main .card-info .features {
+  gap: 15rem;
+}
+@media (max-width: 540px) {
+  main .card-info .features {
+    gap: 6rem;
+  }
+}
+main .card-info .features .feature-info h6 {
+  font-family: "Merriweather", serif;
+  font-size: 1.125rem;
+}
+main .card-info .features .feature-info ul li a,
+main .card-info .features .feature-info ul li a:visited {
+  color: inherit;
+}
+main .links {
+  background-color: #FAFBFF;
+  border: 2px solid #E2E5F6;
+}
+main .links a,
+main .links a:visited {
+  color: #2024B0;
+}/*# sourceMappingURL=style.css.map */
