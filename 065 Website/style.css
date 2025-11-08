@@ -1,0 +1,68 @@
+@import url("https://fonts.googleapis.com/css2?family=Mulish:wght@600;700&display=swap");
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+}
+
+body {
+  font-family: "Mulish", sans-serif !important;
+  background-color: #F2F4FB !important;
+  color: #1A1B38 !important;
+}
+
+main {
+  margin-top: 8rem;
+}
+main h5 {
+  font-size: 1.375rem;
+}
+main .input-group {
+  max-width: 800px;
+  width: 100%;
+}
+main .input-group input {
+  border: 1.5px solid #9E9CB3;
+  cursor: pointer;
+  outline: none;
+  color: inherit;
+  max-width: 650px;
+  width: 100%;
+  font-size: 1.125rem;
+  font-weight: 600;
+}
+main .container .row div {
+  max-width: 351px;
+  width: 95%;
+  cursor: pointer;
+}
+@media (max-width: 991px) {
+  main .container .row div {
+    max-width: unset;
+  }
+}
+main .container .row div a,
+main .container .row div a:visited {
+  color: inherit;
+}
+main .container .row div.one {
+  background-color: #E4E6F6;
+}
+main .container .row div.one a,
+main .container .row div.one a:visited {
+  border: 1.5px solid #CED1F0;
+}
+main .container .row div.two {
+  background-color: #F6E4F5;
+}
+main .container .row div.two a,
+main .container .row div.two a:visited {
+  border: 1.5px solid #F0CEE5;
+}
+main .container .row div.three {
+  background-color: #F0CECE;
+}
+main .container .row div.three a,
+main .container .row div.three a:visited {
+  border: 1.5px solid #FAE5E5;
+}/*# sourceMappingURL=style.css.map */
