@@ -1,0 +1,62 @@
+// Define font families and weights
+@import url('https://fonts.googleapis.com/css2?family=Montserrat:wght@500;700&family=Mulish:wght@400&display=swap');
+
+$font-family-montserrat: 'Montserrat', sans-serif;
+$font-family-mulish: 'Mulish', sans-serif;
+
+$font-weight-bold: 700;
+$font-weight-medium: 500;
+$font-weight-regular: 400;
+
+* {
+    box-sizing: border-box;
+    margin: 0;
+    padding: 0;
+}
+
+body {
+    font-family: $font-family-montserrat !important;
+    font-weight: $font-weight-medium !important;
+    background: linear-gradient(to bottom right, #4DD7A6, #4CABDB, #9645D7, #D74141);
+    color: #242E4C !important;
+    min-height: 86.5vh;
+}
+
+button {
+    font-family: $font-family-mulish;
+    font-weight: $font-weight-regular;
+}
+
+main {
+    margin-top: 7rem;
+    max-width: 543px;
+    width: 95%;
+    box-shadow: 0 6px 20px darken($color: #F9F9FB, $amount: 20%);
+
+    img {
+        width: 90px;
+        height: 90px;
+    }
+
+    h4 {
+        font-size: 1.625rem; 
+    }
+
+    p,
+    span {
+        font-size: 1.125rem; 
+    }
+
+    span {
+        a,
+        a:visited {
+            color: #577AE4;
+        }
+    }
+
+    button {
+        font-size: 1.125rem; 
+        background: linear-gradient(to right, #57A0E4, #577AE4);
+        box-shadow: 0 6px 20px lighten($color: #577AE4, $amount: 10%);
+    }
+}

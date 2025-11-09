@@ -1,0 +1,46 @@
+@import url("https://fonts.googleapis.com/css2?family=Montserrat:wght@500;700&family=Mulish:wght@400&display=swap");
+* {
+  box-sizing: border-box;
+  margin: 0;
+  padding: 0;
+}
+
+body {
+  font-family: "Montserrat", sans-serif !important;
+  font-weight: 500 !important;
+  background: linear-gradient(to bottom right, #4DD7A6, #4CABDB, #9645D7, #D74141);
+  color: #242E4C !important;
+  min-height: 86.5vh;
+}
+
+button {
+  font-family: "Mulish", sans-serif;
+  font-weight: 400;
+}
+
+main {
+  margin-top: 7rem;
+  max-width: 543px;
+  width: 95%;
+  box-shadow: 0 6px 20px #bcbcd2;
+}
+main img {
+  width: 90px;
+  height: 90px;
+}
+main h4 {
+  font-size: 1.625rem;
+}
+main p,
+main span {
+  font-size: 1.125rem;
+}
+main span a,
+main span a:visited {
+  color: #577AE4;
+}
+main button {
+  font-size: 1.125rem;
+  background: linear-gradient(to right, #57A0E4, #577AE4);
+  box-shadow: 0 6px 20px #839deb;
+}/*# sourceMappingURL=style.css.map */
