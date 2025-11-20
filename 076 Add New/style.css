@@ -1,0 +1,61 @@
+@import url("https://fonts.googleapis.com/css2?family=Open+Sans:wght@400;600&display=swap");
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+}
+body {
+  font-family: 'Open Sans', sans-serif !important;
+  font-weight: 600 !important;
+  background-color: #f7f9fd !important;
+  color: #202842 !important;
+}
+main {
+  margin-top: 6rem;
+  max-width: 500px;
+  width: 95%;
+  box-shadow: 0 12px 8px #cfdbf3;
+}
+main .close i {
+  cursor: pointer;
+  border: 2.5px solid #dcdff1;
+  width: 24px;
+  height: 24px;
+  transition: 0.2s ease;
+  color: #7681a4;
+}
+main .close i:hover {
+  color: #f00;
+}
+main .new-info h5 {
+  font-size: 1.3125rem;
+  font-weight: 600;
+}
+main .new-info span {
+  font-size: 0.875rem;
+}
+main .new-info .cards .card-info {
+  max-width: 119px;
+  width: 100%;
+  background-color: #f7f9fd;
+  cursor: pointer;
+  border: 2.4px solid #f7f9fd;
+  transition: 0.2s ease;
+}
+main .new-info .cards .card-info:hover {
+  border-color: #b0c1ff;
+  transform: scale(1.05);
+  box-shadow: 0 4px 8px #c8d4ff;
+}
+main .new-info .cards .card-info img {
+  width: 40px;
+  height: 40px;
+}
+main .new-info .cards .card-info span {
+  font-size: 0.9375rem;
+}
+main .new-info a,
+main .new-info a:visited {
+  color: #3457dc;
+  margin-top: -0.8rem;
+}

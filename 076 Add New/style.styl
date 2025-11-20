@@ -1,0 +1,64 @@
+@import url('https://fonts.googleapis.com/css2?family=Open+Sans:wght@400;600&display=swap')
+
+*
+    margin 0
+    padding 0
+    box-sizing border-box
+
+body
+    font-family 'Open Sans', sans-serif !important 
+    font-weight 600 !important
+    background-color #F7F9FD !important
+    color #202842 !important
+
+main 
+    margin-top 6rem
+    max-width 500px
+    width 95%
+    box-shadow 0 12px 8px darken(#F7F9FD, 10%)  
+
+    .close
+        i 
+            cursor pointer
+            border 2.5px solid #DCDFF1  
+            width 24px
+            height 24px
+            transition 0.2s ease
+            color #7681A4
+
+            &:hover
+                color red
+
+    .new-info
+        h5
+            font-size 1.3125rem    
+            font-weight 600   
+
+        span
+            font-size 0.875rem        
+
+        .cards
+            .card-info
+                max-width 119px
+                width 100%    
+                background-color #F7F9FD
+                cursor pointer 
+                border 2.4px solid #F7F9FD  
+                transition 0.2s ease
+
+                &:hover
+                    border-color  #B0C1FF  
+                    transform scale(1.05)
+                    box-shadow 0 4px 8px lighten(#B0C1FF, 30%)
+
+                img
+                    width 40px
+                    height 40px
+
+                span
+                    font-size 0.9375rem    
+
+        a,
+        a:visited
+            color #3457DC
+            margin-top -0.8rem            
