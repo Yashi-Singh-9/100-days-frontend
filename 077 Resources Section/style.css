@@ -1,0 +1,38 @@
+@import url("https://fonts.googleapis.com/css2?family=IBM+Plex+Sans:wght@400;500&display=swap");
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+}
+body {
+  font-family: 'IBM Plex Sans', sans-serif !important;
+  color: #1a183e !important;
+  background-color: #f0f0f4 !important;
+}
+main {
+  margin-top: 5rem;
+  max-width: 635px;
+  width: 95%;
+  box-shadow: 0 10px 20px #c6c6d5;
+}
+main .header {
+  font-weight: 500;
+}
+main .header a,
+main .header a:visited {
+  color: #2a46cc;
+  font-weight: 500;
+}
+main .resources-info .infos {
+  border-bottom: 2px solid #f0f0f4;
+  cursor: pointer;
+}
+main .resources-info .infos .question {
+  font-size: 1.125rem;
+  font-weight: 500;
+  color: #2a46cc;
+}
+main .resources-info .infos p {
+  max-width: 495px;
+  width: 100%;
+}
