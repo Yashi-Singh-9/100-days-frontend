@@ -1,0 +1,49 @@
+@import url("https://fonts.googleapis.com/css2?family=IBM+Plex+Sans:wght@400;500&display=swap");
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+}
+body {
+  font-family: 'IBM Plex Sans', sans-serif !important;
+  color: #1a183e !important;
+  background-color: #f0f0f4 !important;
+}
+main {
+  margin-top: 6rem;
+  max-width: 863px;
+  width: 95%;
+  box-shadow: 0 12px 12px #c6c6d5;
+}
+main .cards .cards-info {
+  max-width: 349px;
+  width: 100%;
+  cursor: pointer;
+  border: 1.5px solid #e2e2ea;
+}
+main .cards .cards-info.one {
+  background-color: #2a46cc;
+}
+main .cards .cards-info.one a,
+main .cards .cards-info.one a:visited {
+  background-color: #6a7ddb;
+  max-width: 113px;
+  width: 100%;
+}
+main .cards .cards-info span {
+  font-size: 1.125rem;
+  font-weight: 500;
+}
+main .cards .cards-info a,
+main .cards .cards-info a:visited {
+  color: #2a46cc;
+  background-color: #f0f0f4;
+}
+main .show,
+main .show:visited {
+  color: #2a46cc;
+  border: 1.5px solid #2a46cc;
+  max-width: 169px !important;
+  width: 100%;
+  font-weight: 500;
+}
