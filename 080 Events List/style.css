@@ -1,0 +1,39 @@
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+}
+body {
+  font-family: 'IBM Plex Sans', sans-serif !important;
+  background: linear-gradient(to bottom right, #ebecf5, #f865b3, #f87e65);
+  min-height: 88vh;
+  color: #150b30 !important;
+}
+main {
+  margin-top: 7rem;
+  max-width: 535px;
+  width: 95%;
+  box-shadow: 0 10px 20px #cbcee5;
+}
+main h4 {
+  font-family: 'Merriweather', serif;
+}
+main .cards .cards-info {
+  max-width: 350px;
+  width: 100%;
+  cursor: pointer;
+}
+main .cards .title {
+  font-size: 1.125rem;
+}
+main .cards p {
+  font-size: 0.875rem;
+}
+main hr {
+  border: 1.5px solid #979797;
+  border-radius: 5px;
+}
+main button {
+  background-color: #f8656e;
+  font-size: 1.125rem;
+}
