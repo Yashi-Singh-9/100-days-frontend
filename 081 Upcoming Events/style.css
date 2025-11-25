@@ -1,0 +1,50 @@
+@import url("https://fonts.googleapis.com/css2?family=Mulish:wght@400;700&display=swap");
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+}
+body {
+  font-family: 'Mulish', sans-serif !important;
+  background-color: #efe8e0 !important;
+}
+main {
+  margin-top: 8rem;
+}
+main .events-info {
+  max-width: 431px;
+  width: 95%;
+}
+main .events-info div {
+  cursor: pointer;
+}
+main .events-info div .title {
+  font-size: 1.125rem;
+  color: #ff6d5a;
+}
+main .events-info div .schedule {
+  color: #929292;
+  margin-top: -0.8rem;
+}
+main .categories {
+  max-width: 431px;
+  width: 95%;
+}
+main .categories button {
+  background-color: #ff6d5a;
+  max-width: 431px;
+  width: 100%;
+  font-size: 1.125rem;
+}
+main .categories .categories-section div {
+  cursor: pointer;
+}
+main .categories .categories-section div p {
+  font-size: 1.125rem;
+  color: #ff6d5a;
+}
+main .categories .categories-section div p span {
+  font-size: 1rem;
+  color: #242e4c;
+  border-color: #242e4c;
+}
