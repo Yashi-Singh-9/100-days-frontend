@@ -1,0 +1,44 @@
+@import url("https://fonts.googleapis.com/css2?family=Nunito:wght@400;700&display=swap");
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+}
+body {
+  font-family: 'Nunito', sans-serif !important;
+  background: linear-gradient(to bottom right, #b2e7ff, #2d6a40);
+  color: #242e4c !important;
+  min-height: 87vh;
+}
+main {
+  margin-top: 7rem;
+}
+main .conversion {
+  max-width: 483px;
+  width: 100%;
+}
+main .conversion ul li span {
+  font-size: 1.125rem;
+}
+main .conversion button {
+  background: linear-gradient(to bottom right, #ffa354, #ed6e64, #ea6767);
+  max-width: 283px;
+  width: 100%;
+  box-shadow: 0 8px 10px #f3a19a;
+  font-size: 1.25rem;
+}
+main .links {
+  max-width: 483px;
+  width: 100%;
+}
+main .links .quick-links {
+  background: linear-gradient(to bottom right, #ffa354, #ea6767);
+}
+main .links .developer p {
+  max-width: 387px;
+  width: 100%;
+}
+main .links .developer p a,
+main .links .developer p a:visited {
+  color: #e44742;
+}
