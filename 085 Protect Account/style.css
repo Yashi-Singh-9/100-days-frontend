@@ -1,0 +1,50 @@
+@import url("https://fonts.googleapis.com/css2?family=Open+Sans:wght@400;600;700&display=swap");
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+}
+body {
+  font-family: 'Open Sans', sans-serif !important;
+  color: #242e4c !important;
+  background-color: #e7e9f2 !important;
+}
+main {
+  margin-top: 5rem;
+  max-width: 489px;
+  width: 95%;
+  box-shadow: 0 8px 10px #c8cde1;
+}
+main img {
+  width: 100px;
+  height: 100px;
+}
+main .email {
+  font-weight: 600;
+  font-size: 1.125rem;
+}
+main p {
+  max-width: 318px;
+  width: 100%;
+}
+main .update {
+  background-color: #f7f8fc;
+}
+main .update h6 {
+  font-size: 1.125rem;
+}
+main .update a,
+main .update a:visited {
+  font-weight: 600;
+  color: #5b608c;
+  border-color: #e9eaf6;
+  max-width: 185px;
+  width: 100%;
+}
+main a,
+main a:visited {
+  background-color: #242e4c;
+  max-width: 185px;
+  width: 100%;
+  font-weight: 600;
+}
