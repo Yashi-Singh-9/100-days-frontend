@@ -1,0 +1,49 @@
+@import url('https://fonts.googleapis.com/css2?family=Montserrat:wght@400;700&display=swap')
+
+*
+    margin 0
+    padding 0
+    box-sizing border-box
+
+body
+    background-color #10141C !important
+    font-family 'Montserrat', sans-serif !important
+
+main 
+    margin-top 7rem
+    max-width 920px
+    width 95%
+    background-color #161B25
+
+    .header
+        h3
+            color #BCCCEE
+
+        i 
+            cursor pointer
+            background-color #10141C
+            color #3B475E
+            transition 0.2s ease
+
+            &:hover
+                color lighten(#3B475E, 10%)
+
+    .cards
+        .project-card 
+            background-color #10141C
+            max-width 175px
+            width 100%
+            cursor pointer
+
+            &.plus
+                border 2px dashed #596E96
+
+                .fa-plus
+                    color #3B475E
+
+                span
+                    color #596E96    
+
+            img
+                width 137px
+                height 132px
