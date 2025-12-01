@@ -1,0 +1,48 @@
+@import url("https://fonts.googleapis.com/css2?family=Lato:wght@400;700&display=swap");
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+}
+body {
+  font-family: 'Lato', sans-serif !important;
+  background: linear-gradient(to bottom right, #f3a7a7, #a4b2ed);
+  color: #1d253d !important;
+  min-height: 90vh;
+}
+main {
+  margin-top: 6rem;
+}
+main h1 {
+  max-width: 541px;
+  width: 100%;
+  font-size: 3.125rem;
+}
+main .mission {
+  max-width: 696px;
+  width: 100%;
+  font-size: 1.5rem;
+}
+main .cards .service-info {
+  max-width: 586px;
+  width: 100%;
+  cursor: pointer;
+  transition: 0.2s ease;
+}
+main .cards .service-info:hover {
+  transform: scale(1.04);
+  box-shadow: 0 10px 20px #8396e6;
+}
+main .cards .service-info img {
+  width: 105px;
+  height: 105px;
+}
+main .cards .service-info div h3 {
+  font-size: 1.625rem;
+}
+main .cards .service-info div p {
+  max-width: 372px;
+  width: 100%;
+  color: #5d6990;
+  font-size: 1.1875rem;
+}
