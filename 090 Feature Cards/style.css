@@ -1,0 +1,57 @@
+@import url("https://fonts.googleapis.com/css2?family=Mulish:wght@400;700&display=swap");
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+}
+body {
+  font-family: 'Mulish', sans-serif !important;
+  background-color: #f7f8fc !important;
+  color: #10182f !important;
+}
+main {
+  margin-top: 8rem;
+}
+main h2 {
+  font-size: 2.125rem;
+}
+main span {
+  font-size: 1.125rem;
+  color: #545d7a;
+}
+main .cards .cards-info {
+  max-width: 310px;
+  width: 100%;
+  box-shadow: 0 10px 20px #aeb8e1;
+}
+@media (max-width: 767px) {
+  main .cards .cards-info {
+    max-width: 100%;
+  }
+}
+main .cards .cards-info i {
+  width: 105px;
+  height: 105px;
+}
+main .cards .cards-info i.fa-clipboard {
+  background-color: #f3f7ff;
+  color: #306bf3;
+}
+main .cards .cards-info i.fa-clock {
+  background-color: #f9f3ff;
+  color: #d958d0;
+}
+main .cards .cards-info i.fa-calendar {
+  background-color: #fff2f2;
+  color: #e55d5d;
+}
+main .cards .cards-info i.fa-dollar-sign {
+  background-color: #e9fbf2;
+  color: #43a779;
+}
+main .cards .cards-info h6 {
+  font-size: 1.125rem;
+}
+main button {
+  background-color: #10182f;
+}
