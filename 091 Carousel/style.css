@@ -1,0 +1,55 @@
+@import url("https://fonts.googleapis.com/css2?family=Mulish:wght@400;700&display=swap");
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+}
+body {
+  font-family: 'Mulish', sans-serif !important;
+  background-color: #f4efe5 !important;
+}
+main {
+  margin-top: 7rem;
+  max-width: 1170px;
+  width: 95%;
+  box-shadow: 0 14px 10px #e6dbc4;
+}
+main nav ul li a,
+main nav ul li a:visited {
+  color: #747069;
+}
+main nav ul li a.active,
+main nav ul li a:visited.active {
+  color: #000;
+  background-color: #fef8eb;
+}
+main .carousel-info {
+  overflow-x: auto;
+  scroll-behavior: smooth;
+  display: flex;
+  flex-wrap: nowrap;
+}
+main .carousel-info i {
+  color: #747069;
+  cursor: pointer;
+  transition: 0.2s ease;
+}
+main .carousel-info i:hover {
+  color: #000;
+}
+main .carousel-info .info {
+  max-width: 271px;
+  width: 100%;
+  border: 2px solid #e5e5e5;
+  cursor: pointer;
+}
+main .carousel-info .info img {
+  height: 170px;
+}
+main .carousel-info .info span {
+  color: #747069;
+}
+main button {
+  background-color: #eb6649;
+  box-shadow: 0 5px 10px #f08c77;
+}
