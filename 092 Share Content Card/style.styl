@@ -1,0 +1,55 @@
+@import url('https://fonts.googleapis.com/css2?family=Montserrat:wght@400;600;700&display=swap')
+
+*
+    margin 0
+    padding 0
+    box-sizing border-box
+
+body 
+    font-family 'Montserrat', sans-serif !important
+    background-color #1B1D36 !important
+
+main
+    margin-top 8rem
+    max-width 580px
+    width 95%    
+    box-shadow 0 10px 10px lighten(#1B1D36, 10%)
+    background-color #232546
+
+    h5
+        font-size 1.375rem
+    
+    .share-content
+            a,
+            a:visited                
+                i
+                    width 62px
+                    height 62px
+                    background-color #2F315C   
+                    transition 0.2s ease
+
+                    &:hover,
+                    &.selected
+                        &.fa-instagram
+                            background linear-gradient(45deg, #f09433, #e6683c, #dc2743, #cc2366, #bc1888) !important
+
+                        &.fa-facebook-f
+                            background-color: #1877f2
+
+                        &.fa-dribbble
+                            background-color #EA4C89   
+
+                        &.fa-behance
+                            background-color #1769ff
+    
+    .copy 
+        background-color #1B1D36
+
+        .link
+            font-size 1.125rem 
+
+        .copied 
+            color lighten(#5B60BF, 25%)
+            font-size 0.875rem 
+            cursor pointer
+            font-weight 600

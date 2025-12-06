@@ -1,0 +1,63 @@
+@import url("https://fonts.googleapis.com/css2?family=Montserrat:wght@400;600;700&display=swap");
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+}
+body {
+  font-family: 'Montserrat', sans-serif !important;
+  background-color: #1b1d36 !important;
+}
+main {
+  margin-top: 8rem;
+  max-width: 580px;
+  width: 95%;
+  box-shadow: 0 10px 10px #292c53;
+  background-color: #232546;
+}
+main h5 {
+  font-size: 1.375rem;
+}
+main .share-content a i,
+main .share-content a:visited i {
+  width: 62px;
+  height: 62px;
+  background-color: #2f315c;
+  transition: 0.2s ease;
+}
+main .share-content a i:hover.fa-instagram,
+main .share-content a:visited i:hover.fa-instagram,
+main .share-content a i.selected.fa-instagram,
+main .share-content a:visited i.selected.fa-instagram {
+  background: linear-gradient(45deg, #f09433, #e6683c, #dc2743, #cc2366, #bc1888) !important;
+}
+main .share-content a i:hover.fa-facebook-f,
+main .share-content a:visited i:hover.fa-facebook-f,
+main .share-content a i.selected.fa-facebook-f,
+main .share-content a:visited i.selected.fa-facebook-f {
+  background-color: #1877f2;
+}
+main .share-content a i:hover.fa-dribbble,
+main .share-content a:visited i:hover.fa-dribbble,
+main .share-content a i.selected.fa-dribbble,
+main .share-content a:visited i.selected.fa-dribbble {
+  background-color: #ea4c89;
+}
+main .share-content a i:hover.fa-behance,
+main .share-content a:visited i:hover.fa-behance,
+main .share-content a i.selected.fa-behance,
+main .share-content a:visited i.selected.fa-behance {
+  background-color: #1769ff;
+}
+main .copy {
+  background-color: #1b1d36;
+}
+main .copy .link {
+  font-size: 1.125rem;
+}
+main .copy .copied {
+  color: #8488cf;
+  font-size: 0.875rem;
+  cursor: pointer;
+  font-weight: 600;
+}
