@@ -1,0 +1,33 @@
+@import url("https://fonts.googleapis.com/css2?family=Mulish:wght@400;700&display=swap");
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+}
+body {
+  font-family: 'Mulish', sans-serif !important;
+  background-color: #1a1c1f !important;
+}
+main {
+  margin-top: 6rem;
+  max-width: 473px;
+  width: 95%;
+  box-shadow: 0 0 0 20px #16171a;
+}
+main .fa-bolt {
+  color: #ffce3e;
+  background-color: #16171a;
+  width: 114px;
+  height: 114px;
+}
+main p {
+  max-width: 315px;
+  width: 100%;
+}
+main button {
+  font-size: 1.125rem;
+  background-color: #16171a;
+  color: #dadada;
+  max-width: 316px;
+  width: 100%;
+}
