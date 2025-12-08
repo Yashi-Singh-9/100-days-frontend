@@ -1,0 +1,53 @@
+@import url("https://fonts.googleapis.com/css2?family=Montserrat:wght@500;600;700&display=swap");
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+}
+body {
+  font-family: 'Montserrat', sans-serif !important;
+  font-weight: 500 !important;
+  color: #1a2250 !important;
+  background-color: #eef0f7 !important;
+}
+main {
+  margin-top: 7rem;
+  max-width: 845px;
+  width: 95%;
+  box-shadow: 0 10px 10px #cdd3e7;
+}
+main .heart .fa-heart {
+  color: #acb6da;
+  cursor: pointer;
+}
+main .platform .fa-image {
+  color: #2c3e50;
+  background-color: #eef0f7;
+  width: 186px;
+  height: 186px;
+  font-size: 84px;
+}
+main .platform div h2 {
+  font-size: 2.125rem;
+}
+main .platform div span a,
+main .platform div span a:visited {
+  color: #6189ff;
+}
+main .platform div p {
+  max-width: 489px;
+  width: 100%;
+  font-size: 1.25rem;
+}
+main .platform div .get,
+main .platform div .get:visited {
+  max-width: 241px;
+  width: 100%;
+  background: linear-gradient(to bottom right, #8bcdff, #5769a5, #636c8c);
+  font-size: 1.25rem;
+}
+main .platform div .system,
+main .platform div .system:visited {
+  font-size: 1.25rem;
+  color: #6189ff;
+}
