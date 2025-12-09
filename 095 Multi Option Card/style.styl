@@ -1,0 +1,44 @@
+@import url('https://fonts.googleapis.com/css2?family=Montserrat:wght@500;600&display=swap')
+
+*
+    margin 0
+    padding 0
+    box-sizing border-box
+
+body
+    font-family 'Montserrat', sans-serif !important
+    font-weight 500 !important
+    background-color #EEF0F7 !important
+
+main
+    margin-top 7rem
+    max-width 1360px
+    width 95%
+    
+    h4
+        color #1A2250
+
+    .options
+        gap 6rem
+
+        div
+            color #5F85FF
+            max-width 350px
+            width 100%   
+            border-left 4px solid #8BCDFF
+            cursor pointer
+            transition 0.2s ease
+
+            @media (max-width: 938px)
+                    max-width 100%
+
+            &:hover,
+            &.selected
+                color #000
+                background-color #F6F8FF
+
+            
+            span
+                max-width 260px
+                width 100%
+                font-size 1.25rem
