@@ -17,7 +17,7 @@
 
         <i class="fa-solid fa-bars fs-3 menu-icon"></i>
 
-        <ul class="list-unstyled d-flex gap-5">
+        <ul class="list-unstyled gap-5">
             <li>
                 <a href="#" class="text-decoration-none">Designs</a>
             </li>
@@ -37,11 +37,15 @@
         <h4 class="mb-4">Send me a message</h4>
         <p class="mx-auto mb-5">Feel free to get in touch with me with anything related to InterfaceHub or you can just say hi. I will get back to you as soon as I can.</p>
 
-        <form action="" class="mb-5">
-            <input type="text" name="name" id="name" placeholder="Full Name" class="p-3 rounded-1 d-block mx-auto mb-3" required>
-            <input type="email" name="email" id="email" placeholder="Email Address" class="p-3 rounded-1 d-block mx-auto mb-3" required>
-            <input type="text" name="subject" id="subject" placeholder="Subject" class="p-3 rounded-1 d-block mx-auto mb-3" required>
-            <textarea name="message" id="message" placeholder="Messgae" cols="30" rows="5" class="rounded-1 d-block mx-auto mb-4 px-2" required></textarea>
+        <form action="" class="mb-5" novalidate>
+            <input type="text" name="name" id="name" placeholder="Full Name" class="p-3 rounded-1 d-block mx-auto mb-4" required>
+            <small id="nameError" class="error text-danger d-block mb-2 fst-italic"></small>
+            <input type="email" name="email" id="email" placeholder="Email Address" class="p-3 rounded-1 d-block mx-auto mb-4" required>
+            <small id="emailError" class="error text-danger d-block mb-2 fst-italic"></small>
+            <input type="text" name="subject" id="subject" placeholder="Subject" class="p-3 rounded-1 d-block mx-auto mb-4" required>
+            <small id="subjectError" class="error text-danger d-block mb-2 fst-italic"></small>
+            <textarea name="message" id="message" placeholder="Messgae" class="p-3 rounded-1 d-block mx-auto mb-4" cols="30" rows="5" class="rounded-1 d-block mx-auto mb-4 px-2" required></textarea>
+            <small id="messageError" class="error text-danger d-block mb-2 fst-italic"></small>
             <button class="py-3 rounded-1 border-0 text-white fw-bold">Send</button>
         </form>
     </main>
