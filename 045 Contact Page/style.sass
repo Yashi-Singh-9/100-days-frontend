@@ -17,6 +17,9 @@ header
     cursor: pointer
 
   ul 
+    display: flex
+    gap: 2rem
+
     li
       a,
       a:visited
@@ -25,6 +28,11 @@ header
         &:hover
           color: #242E4C
           font-weight: 600
+
+main  
+  form
+    .error
+      margin-top: -1rem
 
 @media (max-width: 768px)
   header 
